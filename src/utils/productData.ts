@@ -1,7 +1,7 @@
 export default [
     {
         id: 0,
-        img: "/product__1.WEBP",
+        img: "/product__1.jpg",
         name: "Wild Silk Finish Lipstick",
         price: 41.0,
         category: ["lipsticks"],
@@ -9,7 +9,7 @@ export default [
     },
     {
         id: 1,
-        img: "/product__2.WEBP",
+        img: "/product__2.jpg",
         name: "Wild Silk Finish Lipstick",
         price: 41.0,
         category: ["lipsticks"],
@@ -17,7 +17,7 @@ export default [
     },
     {
         id: 2,
-        img: "/product__3.WEBP",
+        img: "/product__3.jpg",
         name: "Wild Silk Finish Lipstick",
         price: 41.0,
         category: ["lipsticks"],
@@ -25,7 +25,7 @@ export default [
     },
     {
         id: 3,
-        img: "/product__4.WEBP",
+        img: "/product__4.jpg",
         name: "Wild Silk Finish Lipstick",
         price: 41.0,
         category: ["lipsticks", "makeup"],
@@ -33,7 +33,7 @@ export default [
     },
     {
         id: 4,
-        img: "/product__5.WEBP",
+        img: "/product__5.jpg",
         name: "Goat Milk Lotion For Body",
         price: 15.0,
         category: ["skin care"],
@@ -41,7 +41,7 @@ export default [
     },
     {
         id: 5,
-        img: "/product__6.WEBP",
+        img: "/product__6.jpg",
         name: "Lead Gel Nail Polish",
         price: 18.0,
         category: ["nail & wax"],
@@ -49,7 +49,7 @@ export default [
     },
     {
         id: 6,
-        img: "/product__7.WEBP",
+        img: "/product__7.jpg",
         name: "Lead Gel Nail Polish",
         price: 18.0,
         category: ["nail & wax"],
@@ -57,7 +57,7 @@ export default [
     },
     {
         id: 7,
-        img: "/product__8.WEBP",
+        img: "/product__8.jpg",
         name: "Lead Gel Nail Polish",
         price: 18.0,
         category: ["nail & wax"],
@@ -65,7 +65,7 @@ export default [
     },
     {
         id: 8,
-        img: "/product__9.WEBP",
+        img: "/product__9.jpg",
         name: "Lead Gel Nail Polish",
         price: 18.0,
         category: ["nail & wax"],
@@ -73,7 +73,7 @@ export default [
     },
     {
         id: 9,
-        img: "/product__11.WEBP",
+        img: "/product__11.jpg",
         name: "Washable Bold Eye Mascara",
         price: 55.0,
         category: ["makeup"],
@@ -81,7 +81,7 @@ export default [
     },
     {
         id: 10,
-        img: "/product__12.WEBP",
+        img: "/product__12.jpg",
         name: "Washable Bold Eye Mascara",
         price: 55.0,
         category: ["makeup"],
@@ -89,7 +89,7 @@ export default [
     },
     {
         id: 11,
-        img: "/product__13.WEBP",
+        img: "/product__13.jpg",
         name: "Cleanser with Salicylic Acid",
         price: 16.0,
         category: ["skin care"],
@@ -97,7 +97,7 @@ export default [
     },
     {
         id: 12,
-        img: "/product__14.WEBP",
+        img: "/product__14.jpg",
         name: "Xtreme Wear Nail Polish",
         price: 55.0,
         category: ["makeup", "nail & wax"],
@@ -105,7 +105,7 @@ export default [
     },
     {
         id: 13,
-        img: "/product__15.WEBP",
+        img: "/product__15.jpg",
         name: "Xtreme Wear Nail Polish",
         price: 55.0,
         category: ["makeup", "nail & wax"],
@@ -113,7 +113,7 @@ export default [
     },
     {
         id: 14,
-        img: "/product__16.WEBP",
+        img: "/product__16.jpg",
         name: "Xtreme Wear Nail Polish",
         price: 55.0,
         category: ["makeup", "nail & wax"],
@@ -121,7 +121,7 @@ export default [
     },
     {
         id: 15,
-        img: "/product__17.WEBP",
+        img: "/product__17.jpg",
         name: "Xtreme Wear Nail Polish",
         price: 55.0,
         category: ["makeup", "nail & wax"],
@@ -129,7 +129,7 @@ export default [
     },
     {
         id: 16,
-        img: "/product__18.WEBP",
+        img: "/product__18.jpg",
         name: "Glam Liquid Eyeshadow",
         price: 16.0,
         category: ["makeup"],
@@ -137,7 +137,7 @@ export default [
     },
     {
         id: 17,
-        img: "/product__19.WEBP",
+        img: "/product__19.jpg",
         name: "Glam Liquid Eyeshadow",
         price: 16.0,
         category: ["makeup"],
@@ -145,7 +145,7 @@ export default [
     },
     {
         id: 18,
-        img: "/product__20.WEBP",
+        img: "/product__20.jpg",
         name: "Glam Liquid Eyeshadow",
         price: 16.0,
         category: ["makeup"],
@@ -153,7 +153,7 @@ export default [
     },
     {
         id: 19,
-        img: "/product__21.WEBP",
+        img: "/product__21.jpg",
         name: "Glam Liquid Eyeshadow",
         price: 16.0,
         category: ["makeup"],
@@ -161,7 +161,7 @@ export default [
     },
     {
         id: 20,
-        img: "/product__22.WEBP",
+        img: "/product__22.jpg",
         name: "NYX Matte Lipstick",
         price: 16.0,
         category: ["makeup", "lipsticks"],
@@ -169,7 +169,7 @@ export default [
     },
     {
         id: 21,
-        img: "/product__23.WEBP",
+        img: "/product__23.jpg",
         name: "Baby Oil",
         price: 20.0,
         category: ["skin care"],
@@ -177,7 +177,7 @@ export default [
     },
     {
         id: 22,
-        img: "/product__24.WEBP",
+        img: "/product__24.jpg",
         name: "Hansen Vitamin C Cleanser",
         price: 15.0,
         category: ["skin care"],
@@ -185,7 +185,7 @@ export default [
     },
     {
         id: 23,
-        img: "/product__25.WEBP",
+        img: "/product__25.jpg",
         name: "Arabica Coffee Scrub Skin",
         price: 18.0,
         category: ["skin care"],
@@ -193,7 +193,7 @@ export default [
     },
     {
         id: 24,
-        img: "/product__26.WEBP",
+        img: "/product__26.jpg",
         name: "Rose Massage Oil",
         price: 25.0,
         category: ["skin care"],
@@ -201,7 +201,7 @@ export default [
     },
     {
         id: 25,
-        img: "/product__27.WEBP",
+        img: "/product__27.jpg",
         name: "Secret Tease Candy Noir",
         price: 12.0,
         category: ["makeup"],
@@ -209,7 +209,7 @@ export default [
     },
     {
         id: 26,
-        img: "/product__28.WEBP",
+        img: "/product__28.jpg",
         name: "Gloss Pink With Collagen",
         price: 29.0,
         category: ["lipsticks"],
@@ -217,7 +217,7 @@ export default [
     },
     {
         id: 27,
-        img: "/product__29.WEBP",
+        img: "/product__29.jpg",
         name: "Gloss Pink With Collagen",
         price: 29.0,
         category: ["lipsticks"],
@@ -225,7 +225,7 @@ export default [
     },
     {
         id: 28,
-        img: "/product__30.WEBP",
+        img: "/product__30.jpg",
         name: "Minerals Matte Lipstick",
         price: 43.0,
         category: ["lipsticks"],
@@ -233,7 +233,7 @@ export default [
     },
     {
         id: 28,
-        img: "/product__30.WEBP",
+        img: "/product__30.jpg",
         name: "Minerals Matte Lipstick",
         price: 43.0,
         category: ["lipsticks"],
@@ -241,7 +241,7 @@ export default [
     },
     {
         id: 29,
-        img: "/product__31.WEBP",
+        img: "/product__31.jpg",
         name: "Minerals Matte Lipstick",
         price: 43.0,
         category: ["lipsticks"],
@@ -249,7 +249,7 @@ export default [
     },
     {
         id: 30,
-        img: "/product__32.WEBP",
+        img: "/product__32.jpg",
         name: "Minerals Matte Lipstick",
         price: 43.0,
         category: ["lipsticks"],
@@ -257,7 +257,7 @@ export default [
     },
     {
         id: 31,
-        img: "/product__33.WEBP",
+        img: "/product__33.jpg",
         name: "Natural Tea Body Wash",
         price: 38.0,
         category: ["skin care"],
@@ -265,7 +265,7 @@ export default [
     },
     {
         id: 32,
-        img: "/product__34.WEBP",
+        img: "/product__34.jpg",
         name: "Touch Keratosis Pilaris",
         price: 29.0,
         category: ["skin care"],
@@ -273,7 +273,7 @@ export default [
     },
     {
         id: 33,
-        img: "/product__35.WEBP",
+        img: "/product__35.jpg",
         name: "Yves Saint Laurent Libre",
         price: 23.0,
         category: ["makeup"],
