@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="container relative pt-16">
       <Image
         className="w-[100%] h-auto"
-        src="/hero.WEBP"
+        src="/hero.jpg"
         width={1500}
         height={900}
         alt="Hero Image"

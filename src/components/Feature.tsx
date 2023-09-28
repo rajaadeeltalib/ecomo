@@ -3,17 +3,17 @@ import FeatureCard from "./FeatureCard";
 
 const data = [
   {
-    img: "/icon__cosmetics.WEBP",
+    img: "/icon__cosmetics.jpg",
     title: "Naturally Derived",
     desc: "Natural and organic beauty product",
   },
   {
-    img: "/icon__ship.WEBP",
+    img: "/icon__ship.jpg",
     title: "Free Shipping",
     desc: "Free shipping on all orders over $99",
   },
   {
-    img: "/icon__money.WEBP",
+    img: "/icon__money.jpg",
     title: "Secure Payment",
     desc: "Fully protected when paying online",
   },
