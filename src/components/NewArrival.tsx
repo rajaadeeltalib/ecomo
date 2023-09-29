@@ -1,20 +1,39 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Whisper } from "next/font/google";
 import Data from "@/utils/productData";
-import ProductCard from "./ProductCard";
+import ProductCard, { IProduct } from "./ProductCard";
 
 const whisper = Whisper({ subsets: ["latin"], weight: ["400"] });
 const tabsData = ["All", "Skin Care", "Lipsticks", "Makeup", "Nail & Wax"];
 
 const NewArrival = () => {
   const [selectedTab, setSelectedTab] = useState(0);
+  const [data, setData] = useState([]);
 
-  const handleTab = (index: number) => {
-    setSelectedTab(index);
+  const shuffleArray = (array: any) => {
+    return array
+      .map((value: any) => ({ value, sort: Math.random() }))
+      .sort((a: any, b: any) => a.sort - b.sort)
+      .map(({ value }: any) => value);
   };
 
-  
+  useEffect(() => {
+    setData(shuffleArray(Data).slice(0, 16));
+  }, []);
+
+  const handleTab = (index: number) => {
+    const category = tabsData[index].toLocaleLowerCase();
+    setSelectedTab(index);
+
+    if (category === "all") {
+      setData(shuffleArray(Data).slice(0, 16));
+      return;
+    }
+
+    const filterData = Data.filter((item) => item.category.includes(category));
+    setData(shuffleArray(filterData));
+  };
 
   return (
     <div className="container pt-32">
@@ -38,7 +57,7 @@ const NewArrival = () => {
         </ul>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pt-8">
-          {Data.map((item) => (
+          {data.map((item: IProduct) => (
             <ProductCard
               key={item.id}
               id={item.id}
