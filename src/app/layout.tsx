@@ -1,11 +1,10 @@
-// "use client"
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
-import { store } from '@/redux/store'
-import { Provider } from 'react-redux';
+// import { store } from '@/redux/store'
+import ProviderComponent from '@/redux/Provider'
 
 
 
@@ -25,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Provider store={store}>
+        <ProviderComponent>
         <Navbar />
         {children}
         <Footer />
-        </Provider>
+        </ProviderComponent>
         </body>
     </html>
   )
